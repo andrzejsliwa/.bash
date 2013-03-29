@@ -1,3 +1,4 @@
+alias gc='git commit -u'
 alias ga='git add -u'
 alias gu='git pull'
 alias gp='git push'
@@ -10,7 +11,7 @@ alias gs='git status -sb'
 alias gk='touch .gitkeep'
 alias git='hub'
 
-function gc {
+function gcm {
    message=""
    for word in "$@"
    do
