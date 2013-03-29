@@ -6,6 +6,7 @@ function custom() {
       cd ~/.bash
       git add -u
       git commit
+      git push
       cd -
       verbosity=$lvl_info
       source ~/.bash/includes.bash
