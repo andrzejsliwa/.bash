@@ -26,5 +26,4 @@ function custom() {
   fi
 }
 
-
 loaded "custom"
