@@ -3,6 +3,10 @@ function custom() {
     $EDITOR ~/.bash/customs/$1.bash
     if [ -f ~/.bash/customs/$1.bash ]; then
       grep "$1.bash" ~/.bash/includes.bash >/dev/null || echo "source ~/.bash/customs/$1.bash" >> ~/.bash/includes.bash
+      cd ~/.bash
+      git add -u
+      git commit
+      cd -
       verbosity=$lvl_info
       source ~/.bash/includes.bash
     fi
@@ -20,5 +24,6 @@ function custom() {
     echo "  $ custom name_of_custom"
   fi
 }
+
 
 loaded "custom"
