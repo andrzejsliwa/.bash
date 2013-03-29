@@ -23,4 +23,4 @@
 
 ## saving changes
 
-Every time you will change file, changes will be commited, and config files reloaded
+Every time when you will change file, changes will be commited, and config files reloaded
