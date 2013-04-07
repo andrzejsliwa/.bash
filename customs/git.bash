@@ -1,4 +1,4 @@
-alias gc='git commit -u'
+alias gc='git commit -u --verbose'
 alias ga='git add -u'
 alias gu='git pull'
 alias gp='git push'
