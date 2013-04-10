@@ -6,3 +6,4 @@ source ~/.bash/customs/prompt.bash
 source ~/.bash/customs/navigation.bash
 source ~/.bash/customs/erlang.bash
 source ~/.bash/customs/tmux.bash
+source ~/.bash/customs/postgres.bash
