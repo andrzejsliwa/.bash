@@ -12,7 +12,7 @@ alias gk='touch .gitkeep'
 alias git='hub'
 
 function gsu {
-  git remote add upstream git://github.com/$@
+  git remote add upstream git://github.com/$@.git
 }
 
 function gcm {
