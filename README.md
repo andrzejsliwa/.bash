@@ -1,6 +1,7 @@
 ## install script
 
-    curl -L https://raw.github.com/andrzejsliwa/.bash/master/install.sh | sh
+    curl -L https://raw.github.com/andrzejsliwa/.bash/master/utils/install.sh | sh
+    curl -L https://raw.github.com/andrzejsliwa/.bash/master/utils/install_server.sh | sh
 
 ## list custom configs
 
