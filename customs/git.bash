@@ -11,15 +11,19 @@ alias gs='git status -sb'
 alias gk='touch .gitkeep'
 alias git='hub'
 
+function gsu {
+  git remote add upstream git://github.com/$@
+}
+
 function gcm {
-   message=""
-   for word in "$@"
-   do
-      message+="$word "
-   done
-   echo "git commit -u -m \"$message\""
-   git commit -u -m "$message"
-   git push
+  message=""
+  for word in "$@"
+  do
+     message+="$word "
+  done
+  echo "git commit -u -m \"$message\""
+  git commit -u -m "$message"
+  git push
 }
 
 function git_scoreboard {
