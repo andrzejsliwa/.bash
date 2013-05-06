@@ -3,7 +3,6 @@ alias rh='rebar -c'
 alias er='erl -config ~/erl_hist.config -name term@127.0.0.1 -pa $PWD/ebin -pa $PWD/apps/*/ebin -pa $PWD/deps/*/ebin'
 
 
-
 function erlang {
    source ~/erlangs/$1/activate
 }
