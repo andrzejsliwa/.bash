@@ -7,4 +7,4 @@ source ~/.bash/customs/navigation.bash
 source ~/.bash/customs/erlang.bash
 source ~/.bash/customs/tmux.bash
 source ~/.bash/customs/postgres.bash
-source ~/.bash/customs/vim-mode.bash
+source ~/.bash/customs/vim.bash
