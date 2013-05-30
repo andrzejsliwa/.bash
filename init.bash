@@ -1,4 +1,3 @@
-export EDITOR=vim
 source ~/.bash/logging.bash
 verbosity=$lvl_silent
 
