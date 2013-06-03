@@ -4,7 +4,7 @@ function custom() {
     if [ -f ~/.bash/customs/$1.bash ]; then
       grep "$1.bash" ~/.bash/includes.bash >/dev/null || echo "source ~/.bash/customs/$1.bash" >> ~/.bash/includes.bash
       cd ~/.bash
-      git add -u
+      git add -u .
       git commit
       git push
       cd -
