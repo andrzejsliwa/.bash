@@ -4,7 +4,7 @@ alias er='erl -config ~/erl_hist.config -name term@127.0.0.1 -pa $PWD/ebin -pa $
 
 
 function erlang {
-   source ~/erlangs/$1/activate
+   source ~/erlang/otp/$1/activate
 }
 
 if [ -f ~/erlangs/kerl/bash_completion ]; then
